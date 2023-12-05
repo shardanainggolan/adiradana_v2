@@ -9,7 +9,7 @@ export default function Layout({ children }) {
         <>
             {/* Global site tag (gtag.js) - Google Analytics */}
             <Script
-                src="https://www.googletagmanager.com/gtag/js?id=G-3T4PSS3BT7"
+                src="https://www.googletagmanager.com/gtag/js?id=G-MEWN1P51FE"
                 strategy="afterInteractive"
             />
             <Script id="google-analytics" strategy="afterInteractive">
@@ -17,8 +17,8 @@ export default function Layout({ children }) {
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                
-                    gtag('config', 'G-3T4PSS3BT7');
+                  
+                    gtag('config', 'G-MEWN1P51FE');
                 `}
             </Script>
 
